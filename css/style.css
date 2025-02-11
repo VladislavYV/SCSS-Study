@@ -2,7 +2,7 @@
   --main-color: black;
   --bg-primary-btn:#005bff;
   --color-magenta:#f91155;
-  --color-price:#10c44c;
+  --color-price:#3d2100;
   --font-size-price-now:1.5rem;
   --font-size-brand:0.8rem;
 }
@@ -34,7 +34,7 @@ body {
 
 header,
 footer {
-  background-color: gray;
+  background-color: rgb(255, 255, 255);
   min-height: 100px;
 }
 
@@ -46,7 +46,7 @@ main {
   max-width: 1800px;
   margin: 0 auto;
   position: relative;
-  background-color: aqua;
+  background-color: rgb(255, 181, 132);
 }
 
 @media (max-width:1800px) {
@@ -78,12 +78,12 @@ main {
 .catalog__filter {
   width: 200px;
   flex-shrink: 0;
-  background-color: gray;
+  background-color: rgb(48, 48, 48);
 }
 
 .catalog__sort {
   min-height: 40px;
-  background-color: gray;
+  background-color: rgb(48, 48, 48);
 }
 
 .catalog__content {
@@ -125,6 +125,7 @@ main {
   width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
 
 .catalog__img {
@@ -148,7 +149,7 @@ main {
 }
 
 .price-early {
-  color: #99a3ae;
+  color: #7a7a7a;
   text-decoration: line-through;
   font-weight: bold;
   margin-right: 10px;
@@ -183,16 +184,16 @@ main {
 }
 
 .catalog__raiting i {
-  color: rgb(255, 168, 0);
+  color: #7a7a7a;
 }
 
 .catalog__review {
-  color: #99a3ae;
+  color: #7a7a7a;
 }
 
 .catalog__btn {
   position: relative;
-  background-color: #005bff;
+  background-color: #ff6600;
   width: 100%;
   padding: 10px;
   border: none;
@@ -214,7 +215,7 @@ main {
 .catalog__btn:hover,
 .catalog__btn:focus,
 .catalog__btn:active {
-  background-color: #3a7fff;
+  background-color: #7a7a7a;
 }
 
 .img__wrapper {
@@ -260,7 +261,7 @@ main {
 
 .catalog__title:hover,
 .catalog__title:focus {
-  color:#005bff;
+  color:#7a7a7a;
 }
 
 
